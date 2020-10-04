@@ -9,11 +9,11 @@ class Character < ActiveRecord::Base
   end
   
   def build_show
-    self.show
+    self.show.name 
   end
   
   def build_network
-    self.network
+    self.network.name
   end
   
 end
