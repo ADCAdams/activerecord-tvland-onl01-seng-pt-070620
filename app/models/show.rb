@@ -1,5 +1,5 @@
 class Show < ActiveRecord::Base
-  has_many :character
-  has_many :actor, through: :character
+  has_many :characters
+  has_many :actors, through: :character
   
 end
